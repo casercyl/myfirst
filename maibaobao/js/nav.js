@@ -1,0 +1,46 @@
+$("#menu_all").mouseover(function(){
+	$("#menu_L").css("display","block");
+});
+$("#menu_all").mouseout(function(){
+	$("#menu_L").css("display","none");
+});
+$("#menu_L").mouseover(function(){
+	$("#menu_L").css("display","block");
+});
+$("#menu_L").mouseout(function(){
+	$("#menu_L").css("display","none");
+});
+
+$("#menu1").mouseover(function(){
+  $("#menu1_R").css("display","block");
+  $(".left_click").css("display","none");
+  $("#menu1").css("border-right","1px solid #fff")
+});
+$("#menu1").mouseout(function(){
+  $("#menu1_R").css("display","none");
+  $(".left_click").css("display","block");
+});
+$("#menu2").mouseover(function(){
+  $("#menu2_R").css("display","block");
+    $(".left_click").css("display","none");
+});
+$("#menu2").mouseout(function(){
+  $("#menu2_R").css("display","none");
+    $(".left_click").css("display","block");
+});
+$("#menu3").mouseover(function(){
+  $("#menu3_R").css("display","block");
+    $(".left_click").css("display","none");
+});
+$("#menu3").mouseout(function(){
+  $("#menu3_R").css("display","none");
+    $(".left_click").css("display","block");
+});
+$("#menu4").mouseover(function(){
+  $("#menu4_R").css("display","block");
+    $(".left_click").css("display","none");
+});
+$("#menu4").mouseout(function(){
+  $("#menu4_R").css("display","none");
+    $(".left_click").css("display","block");
+});

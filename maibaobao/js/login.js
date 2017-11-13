@@ -1,0 +1,9 @@
+$(function(){
+		$("#red_btn").click(function(){
+		if($("#user_name").text()==$.cookie("name")&&$("#user_password").text()==$.cookie("password")){
+			window.location="index.html"
+		}else{
+			alert("error");
+		}
+	});
+	});

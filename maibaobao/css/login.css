@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a, u {
+  text-decoration: none; }
+
+ul, ol, li {
+  list-style: none; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: 100; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 100; }
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: block; }
+
+body {
+  width: 100%; }
+
+#login_headbg {
+  width: 100%;
+  border-bottom: 3px solid #ed1c24; }
+  #login_headbg #login_head {
+    width: 860px;
+    margin: 0 auto;
+    padding: 24px 100px 10px 0;
+    overflow: hidden; }
+    #login_headbg #login_head .logo {
+      display: block;
+      float: left;
+      width: 92px;
+      height: 55px;
+      background: url(../img/logo.png) no-repeat;
+      position: static; }
+    #login_headbg #login_head .feedback {
+      float: right;
+      font-size: 12px;
+      color: #888;
+      padding: 30px 0 0; }
+      #login_headbg #login_head .feedback a {
+        color: #888888;
+        padding: 0px 0px 0px 5px; }
+
+#login_bodybg {
+  width: 100%; }
+  #login_bodybg #login_body {
+    height: 424px;
+    width: 960px;
+    margin: 0 auto;
+    position: relative; }
+    #login_bodybg #login_body .body_L {
+      width: 495px;
+      height: 303px;
+      position: absolute;
+      display: block;
+      top: 59px;
+      left: 0; }
+    #login_bodybg #login_body .body_R {
+      width: 307px;
+      background: #f5f5f5;
+      border: 1px solid #e1e1e1;
+      padding: 25px 28px;
+      position: absolute;
+      top: 59px;
+      right: 100px; }
+      #login_bodybg #login_body .body_R .tietle {
+        padding: 0 0 10px;
+        margin: 0 0 10px;
+        border-bottom: 1px dotted #e1e1e1;
+        overflow: hidden;
+        font-size: 12px; }
+        #login_bodybg #login_body .body_R .tietle h2 {
+          float: left;
+          display: block;
+          font-size: 14px;
+          font-weight: bold; }
+        #login_bodybg #login_body .body_R .tietle span {
+          float: right;
+          display: block;
+          color: #666; }
+          #login_bodybg #login_body .body_R .tietle span a {
+            color: #f00; }
+          #login_bodybg #login_body .body_R .tietle span a:hover {
+            text-decoration: underline; }
+      #login_bodybg #login_body .body_R #form_login {
+        font-size: 12px;
+        display: block; }
+        #login_bodybg #login_body .body_R #form_login .form_main {
+          padding: 10px 0 0; }
+          #login_bodybg #login_body .body_R #form_login .form_main li {
+            padding: 0 0 15px;
+            overflow: hidden; }
+            #login_bodybg #login_body .body_R #form_login .form_main li span {
+              display: block;
+              float: left;
+              width: 70px;
+              text-align: right;
+              color: #666;
+              font-size: 14px;
+              padding: 2px 0 0; }
+            #login_bodybg #login_body .body_R #form_login .form_main li #user_name {
+              float: left;
+              position: relative;
+              height: 28px;
+              width: 172px;
+              border: 1px solid #e1e1e1; }
+            #login_bodybg #login_body .body_R #form_login .form_main li #user_password {
+              display: block;
+              width: 165px;
+              height: 16px;
+              padding: 5px 0 5px 5px;
+              border: 1px solid #e1e1e1;
+              outline: 0;
+              float: left; }
+            #login_bodybg #login_body .body_R #form_login .form_main li .forget_pwd {
+              display: block;
+              float: left;
+              padding: 4px 0 0 5px;
+              color: #f00; }
+            #login_bodybg #login_body .body_R #form_login .form_main li .forget_pwd:hover {
+              color: #CC0000;
+              text-decoration: underline; }
+            #login_bodybg #login_body .body_R #form_login .form_main li #red_btn {
+              float: left;
+              width: 96px;
+              height: 30px;
+              color: #fff;
+              padding: 0 30px 0 18px;
+              _padding: 2px 30px 0 18px;
+              border: 0;
+              text-align: left;
+              vertical-align: middle;
+              cursor: pointer;
+              background: url(../img/login_single.png) no-repeat 73px -166px;
+              background-color: #f00; }
+      #login_bodybg #login_body .body_R #quick_linkbg {
+        text-align: left;
+        color: #666;
+        position: relative;
+        height: 68px; }
+        #login_bodybg #login_body .body_R #quick_linkbg .quick_tietle {
+          position: absolute;
+          top: 0;
+          left: -10px;
+          padding: 20px 0 10px;
+          color: #666;
+          font-weight: 400;
+          font-size: 14px; }
+        #login_bodybg #login_body .body_R #quick_linkbg .quick_link {
+          color: #ddd;
+          position: absolute;
+          top: 50px;
+          left: -10px;
+          width: 370px; }
+          #login_bodybg #login_body .body_R #quick_linkbg .quick_link a {
+            display: inline-block;
+            width: 73px;
+            height: 19px;
+            vertical-align: middle;
+            color: #999;
+            font-size: 12px; }
+          #login_bodybg #login_body .body_R #quick_linkbg .quick_link a:hover {
+            text-decoration: underline; }
+          #login_bodybg #login_body .body_R #quick_linkbg .quick_link .quick_zfb {
+            margin: 0 5px 0 0;
+            background: url(../img/login_single.png) no-repeat 0 -42px; }
+          #login_bodybg #login_body .body_R #quick_linkbg .quick_link .quick_qq {
+            width: 22px;
+            padding: 0 0 0 20px;
+            background: url(../img/qq.png) no-repeat 2px 3px; }
+          #login_bodybg #login_body .body_R #quick_linkbg .quick_link .quick_sina {
+            width: 52px;
+            padding: 0 0 0 20px;
+            background: url(../img/login_single.png) no-repeat 0 -78px; }
+          #login_bodybg #login_body .body_R #quick_linkbg .quick_link .quick_chinamob {
+            width: 50px;
+            padding: 0 0 0 15px;
+            margin: 0 2px;
+            background: url(../img/login_single.png) no-repeat 0 -110px; }
+          #login_bodybg #login_body .body_R #quick_linkbg .quick_link .quick_weixin {
+            width: 35px;
+            margin: 0 3px;
+            padding: 0 0 0 18px;
+            background: url(../img/login_single.png) no-repeat 0 -208px; }
+
+/*# sourceMappingURL=login.css.map */

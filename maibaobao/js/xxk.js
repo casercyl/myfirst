@@ -1,0 +1,17 @@
+$(function(){
+	$(".tab1").click(function(){
+		$(".content_info").css("display","block");
+		$(".content_comment").css("display","none");
+		$(".content_protect").css("display","none");
+	});
+	$(".tab2").click(function(){
+		$(".content_info").css("display","none");
+		$(".content_comment").css("display","block");
+		$(".content_protect").css("display","none");
+	});
+	$(".tab3").click(function(){
+		$(".content_info").css("display","none");
+		$(".content_comment").css("display","none");
+		$(".content_protect").css("display","block");
+	});
+});
