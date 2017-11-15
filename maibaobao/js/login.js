@@ -1,6 +1,6 @@
 $(function(){
 		$("#red_btn").click(function(){
-		if($("#user_name").text()==$.cookie("name")&&$("#user_password").text()==$.cookie("password")){
+		if($("#user_name").val()==$.cookie("name")&&$("#user_password").val()==$.cookie("password")){
 			window.location="index.html"
 		}else{
 			alert("error");

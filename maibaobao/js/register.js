@@ -42,11 +42,12 @@ $(function(){
 
 		$("#red_btn").click(function(){
 			if(flag1&&flag2&&flag3){
-			$user_name=$("#register_name").text();
+			$user_name=$("#register_name").val();
 			$.cookie("name",$user_name,{expires:7,path:"/"});
-			$password=$("#register_password").text();
+			$password=$("#register_password").val();
 			$.cookie("password",$password,{expires:7,path:"/"});
-			window.location="login.html";}else{
+			window.location="login.html";
+			}else{
 	
 				alert("输入错误");}
 

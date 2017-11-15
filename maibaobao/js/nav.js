@@ -44,3 +44,21 @@ $("#menu4").mouseout(function(){
   $("#menu4_R").css("display","none");
     $(".left_click").css("display","block");
 });
+if($.cookie("name")!=null){
+	$(".nologin").css("display","none");
+	$(".oklogin").css("display","block");
+	$(".login_name").html($.cookie("name"));
+}else{
+	$(".nologin").css("display","block");
+	$(".oklogin").css("display","none");
+}
+$(".exit").hover(function(){
+	$(this).css("color","red");
+},function(){
+	$(this).css("color","#000000");
+})
+$(".exit").click(function(){
+	$.cookie('name',null,{expires:-1,path: '/'});  
+    $.cookie('password',null,{expires: -1,path: '/'});  
+    window.location.reload();
+})

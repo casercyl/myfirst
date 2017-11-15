@@ -41,8 +41,14 @@ body{
         line-height: 30px;
         .user_left{
             float: left;
-             color: #333;
-                font-size: 12px;
+            color: #333;
+            font-size: 12px;
+            a{
+                color: #000000;
+            }
+            .oklogin{
+                display: none;
+            }        
         }
         .user_right{
             float: right;

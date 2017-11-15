@@ -44,6 +44,10 @@ body {
       float: left;
       color: #333;
       font-size: 12px; }
+      #top_bg #top .user_left a {
+        color: #000000; }
+      #top_bg #top .user_left .oklogin {
+        display: none; }
     #top_bg #top .user_right {
       float: right; }
 
